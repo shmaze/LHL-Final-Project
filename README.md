@@ -38,4 +38,4 @@ The script will now output which direction it think the price of bitcoin will mo
 #### Final Results
 
 
-![](https://github.com/shmaze/LHL-Final-Project/tree/main/data)
+![alt text](https://github.com/shmaze/LHL-Final-Project/blob/main/data/accuracy_chart.png)
