@@ -9,10 +9,15 @@ I will be using the trading pair BTC/USDT and attempting to use different machin
 
 #### Contents
 [Chapter 1](https://github.com/shmaze/LHL-Final-Project/tree/main/1-Notebooks) - These are a collection of failed attempts. Valuable for learning what not to do.
+
 [Chapter 2](https://github.com/shmaze/LHL-Final-Project/blob/main/2-1_Backtesting%20and%20Re-evaluating.ipynb) - This was a detour and waste of time. Although interesting for future exploration.
+
 [Chapter 3](https://github.com/shmaze/LHL-Final-Project/blob/main/3-1_Recurrent-Neural-Networks-and-LSTM.ipynb) - This was the foray into an LSTM network. Less than fantastic results.
+
 [Chapter 4-1](https://github.com/shmaze/LHL-Final-Project/blob/main/4-1_Starting-Over.ipynb) - This is where all the magic happened. Results included here. Final model exported at the end.
+
 [Chapter 4-2](https://github.com/shmaze/LHL-Final-Project/blob/main/4-2_Starting-the-Framework-for-the-Program.ipynb) - This is the notebook used to create all the functions exported into predictor.py script.
+
 [Chapter 5](https://github.com/shmaze/LHL-Final-Project/blob/main/5_Evaluations-and-Tables.ipynb) - Simply dataframe for presentation of successful model metrics.
 
 ### Disclaimer
