@@ -116,22 +116,22 @@ predicted = model.predict_proba(X)
 
 
 if (predicted[0][0] < predicted[0][1]) & (predicted[0][1] > 0.6):
-    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go UP tomorrow!\nI am quite confident about this! At this confidence I am correct only{53/(53+36)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
+    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go UP tomorrow!\nI am quite confident about this!\nAt this confidence I am correct {53/(53+36)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
     
 elif (predicted[0][0] < predicted[0][1]) & (predicted[0][1] > 0.55):
-    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go UP tomorrow!\nI am sort of confident about this! At this confidence I am correct only {36/(36+27)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
+    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go UP tomorrow!\nI am sort of confident about this!\nAt this confidence I am correct {36/(36+27)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
               
 elif (predicted[0][1] < predicted[0][0]) & (predicted[0][0] > 0.6):
-    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go DOWN tomorrow!\nI am quite confident about this! At this confidence I am correct only {61/(61+44)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
+    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go DOWN tomorrow!\nI am quite confident about this!\nAt this confidence I am correct {61/(61+44)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
           
 elif (predicted[0][1] < predicted[0][0]) & (predicted[0][0] > 0.55):
-    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go DOWN tomorrow!\nI am sort of confident about this! At this confidence I am correct only {38/(38+31)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
+    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go DOWN tomorrow!\nI am sort of confident about this!\nAt this confidence I am correct {38/(38+31)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
           
 elif predicted[0][0] < predicted[0][1]:
-    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go UP tomorrow!\nI am not very confident about this! At this confidence I am correct only {67/(67+53)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
+    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go UP tomorrow!\nI am not very confident about this!\nAt this confidence I am correct {67/(67+53)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
 
 elif predicted[0][1] < predicted[0][0]:
-    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go DOWN tomorrow!\nI am not very confident about this! At this confidence I am correct only {44/(44+36)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
+    print(f'*********************\n\n\n\nThe price of Bitcoin is predicted to go DOWN tomorrow!\nI am not very confident about this!\nAt this confidence I am correct {44/(44+36)*100:.2f}% of the time!\n\n\n\nThis is not finanical advice. I am not a financial advisor. All information here is for entertainment purposes only.\n\n\n\n*********************')
     
 else:
     pass
