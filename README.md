@@ -18,7 +18,7 @@ I will be using the trading pair BTC/USDT and attempting to use different machin
 
 [Chapter 4-2](https://github.com/shmaze/LHL-Final-Project/blob/main/4-2_Starting-the-Framework-for-the-Program.ipynb) - This is the notebook used to create all the functions exported into predictor.py script.
 
-[Chapter 5](https://github.com/shmaze/LHL-Final-Project/blob/main/5_Evaluations-and-Tables.ipynb) - Simply dataframe for presentation of successful model metrics.
+[Chapter 5](https://github.com/shmaze/LHL-Final-Project/blob/main/5_Evaluations-and-Tables.ipynb) - Simple dataframe for presentation of successful model metrics.
 
 ### Disclaimer
 ### This is not financial advice. I am not a finanical advisor. Everything contained herein is meant to be for entertainment purposes only. 
