@@ -19,7 +19,14 @@ I will be using the trading pair BTC/USDT and attempting to use different machin
 [Chapter 4-2](https://github.com/shmaze/LHL-Final-Project/blob/main/4-2_Starting-the-Framework-for-the-Program.ipynb) - This is the notebook used to create all the functions exported into predictor.py script.
 
 [Chapter 5](https://github.com/shmaze/LHL-Final-Project/blob/main/5_Evaluations-and-Tables.ipynb) - Simple dataframe for presentation of successful model metrics.
-
+----------------
+Follow-up Chapters
+Chapter 6 - These notebooks contain all processes related to model tracking and performance.
+  ~[6-1](https://github.com/shmaze/LHL-Final-Project/blob/main/6-1_Model-Tracking-and-Database-Creation.ipynb) - Evaluating model performance metrics and writing to our first database.
+  ~[6-2](https://github.com/shmaze/LHL-Final-Project/blob/main/6-2_Reading-New-Database-and-Visualizing-Model-Performance.ipynb) - Reading data from our new database and displaying model performance with matplotlib.
+  ~[6-3](https://github.com/shmaze/LHL-Final-Project/blob/main/6-3_Implementing-Quantitative-Metrics.ipynb) - Implementing quantitative model tracking metrics and improving upon prior model performance display.
+Scripts - Final runnable python scripts for [Predicting](https://github.com/shmaze/LHL-Final-Project/blob/main/predictor.py), [Database_Population](https://github.com/shmaze/LHL-Final-Project/blob/main/full_database_populator.py) and [Model Performance Display](https://github.com/shmaze/LHL-Final-Project/blob/main/full_model_performance.py). As well as [deprecated scripts](https://github.com/shmaze/LHL-Final-Project/tree/main/Deprecated-Scripts) that have been improved upon and are no longer needed.
+----------------
 ### Disclaimer
 ### This is not financial advice. I am not a finanical advisor. Everything contained herein is meant to be for entertainment purposes only. 
 
