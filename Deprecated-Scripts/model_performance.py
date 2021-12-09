@@ -105,4 +105,4 @@ def display_model_performance(model_metrics_df):
 
 
 model_metrics = from_acc_db()
-display_model_performance(model_metrics)
+print(display_model_performance(model_metrics))
