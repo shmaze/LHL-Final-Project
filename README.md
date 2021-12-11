@@ -30,7 +30,14 @@ Chapter 6 - These notebooks contain all processes related to model tracking and 
   
   ~[6-3](https://github.com/shmaze/LHL-Final-Project/blob/main/6-3_Implementing-Quantitative-Metrics.ipynb) - Implementing quantitative model tracking metrics and improving upon prior model performance display.
   
-Scripts - Final runnable python scripts for [Predicting](https://github.com/shmaze/LHL-Final-Project/blob/main/predictor.py), [Database_Population](https://github.com/shmaze/LHL-Final-Project/blob/main/full_database_populator.py) and [Model Performance Display](https://github.com/shmaze/LHL-Final-Project/blob/main/full_model_performance.py). As well as [deprecated scripts](https://github.com/shmaze/LHL-Final-Project/tree/main/Deprecated-Scripts) that have been improved upon and are no longer needed.
+Chapter 7 - Notebooks for testing and creating new CSV files and Streamlit app deployment 
+  ~[7-1](https://github.com/shmaze/LHL-Final-Project/blob/main/7-1_Attempting-Google-cloud-CSV-Storage-and-Streamlit-Deployment.ipynb) - First steps into testing google cloud storage and deployment.
+  
+  ~[7-2](https://github.com/shmaze/LHL-Final-Project/blob/main/7-2_Re-Working-for-Deployment.ipynb) - Created functions for accessing and stroing csvs.
+  
+[Deployable App](https://github.com/shmaze/LHL-Final-Project/blob/main/predictor_app.py) - This is the final script which is deployed onto Streamlit and is the finished product as this time.
+  
+Scripts - Final runnable python scripts for [Predicting](https://github.com/shmaze/LHL-Final-Project/blob/main/predictor_app.py) and [Database_Population](https://github.com/shmaze/LHL-Final-Project/blob/main/final_database_populator.py). As well as [deprecated scripts](https://github.com/shmaze/LHL-Final-Project/tree/main/Deprecated-Scripts) that have been improved upon and are no longer needed.
 
 ### Disclaimer
 ### This is not financial advice. I am not a finanical advisor. Everything contained herein is meant to be for entertainment purposes only. 
