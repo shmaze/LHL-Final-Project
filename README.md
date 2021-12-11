@@ -31,6 +31,7 @@ Chapter 6 - These notebooks contain all processes related to model tracking and 
   ~[6-3](https://github.com/shmaze/LHL-Final-Project/blob/main/6-3_Implementing-Quantitative-Metrics.ipynb) - Implementing quantitative model tracking metrics and improving upon prior model performance display.
   
 Chapter 7 - Notebooks for testing and creating new CSV files and Streamlit app deployment 
+
   ~[7-1](https://github.com/shmaze/LHL-Final-Project/blob/main/7-1_Attempting-Google-cloud-CSV-Storage-and-Streamlit-Deployment.ipynb) - First steps into testing google cloud storage and deployment.
   
   ~[7-2](https://github.com/shmaze/LHL-Final-Project/blob/main/7-2_Re-Working-for-Deployment.ipynb) - Created functions for accessing and stroing csvs.
