@@ -412,7 +412,7 @@ def gains_db(gains_df):
     
 # this function will create csv files from all of our databases as well
     
-    def make_csvs(X_evaluated, X_from_db, gains_df):
+def make_csvs(X_evaluated, X_from_db, gains_df):
     '''
     This function intakes our fully completed dataframes from each section of our database populator and writes them to csv files.
     '''
