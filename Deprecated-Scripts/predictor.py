@@ -106,8 +106,8 @@ X = to_predict()
 
 # now we must load our saved model using pickle
 
-with open("final_model.pkl", "rb") as file:
-    model = joblib.load(file)
+from urllib.request import urlopen
+model = joblib.load(urlopen("https://storage.googleapis.com/my_perfect_model_data/CSVs/final_model.pkl"))
     
     
 predicted = model.predict_proba(X)
