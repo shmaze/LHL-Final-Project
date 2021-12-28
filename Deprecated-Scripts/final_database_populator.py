@@ -204,8 +204,8 @@ def from_database():
     data = pd.read_sql(query, conn, parse_dates=['Date'])        # adding in the query, connection, and parsing date column as its correct format
     data.set_index('Date', inplace=True)                         # setting the index of the resulting dataframe to the date column
     conn.close()                                                 # closiung connection to database
-    
-    return data.sort_index(inplace=True)
+    data = data.sort_index()
+    return data
 
 
 

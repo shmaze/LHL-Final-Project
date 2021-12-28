@@ -1,0 +1,2 @@
+Date,Open,High,Low,Close,Volume,Quote asset volume,Number of trades,Taker buy base volume,Taker buy quote volume,High/Low,volX,quote-buy,7sma,30sma,90sma,Prediction,Confidence,True_Label,Correct_Pred
+2021-12-27,50775.48,52088.0,50449.0,50701.44,28779.58212,1471423612.091862,1009238.0,14432.91035,738207529.0572352,1639.0,51127.34458605343,51147.51710885776,50144.77714285714,50418.86433333333,56005.593555555555,1,0.7310042,0,0
