@@ -124,8 +124,9 @@ X = to_predict()
 
 # now we must load our saved model using joblib
 
-
-model = joblib.load(urlopen("https://drive.google.com/file/d/1hQURz8A2l3iqc6y2HJHv6ZBZ0qwm8KVM/view?usp=sharing"))
+model_url = 'https://drive.google.com/file/d/1hQURz8A2l3iqc6y2HJHv6ZBZ0qwm8KVM/view?usp=sharing'
+model_path = 'https://drive.google.com/uc?export=download&id=' + model_url.split('/')[-2]
+model = joblib.load(urlopen(model_path))
     
 predicted = model.predict_proba(X)
 
