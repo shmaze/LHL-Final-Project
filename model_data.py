@@ -151,7 +151,7 @@ def get_performance():
     
     model_acc = sum(model_data['Correct_Pred']) / len(model_data['Correct_Pred'])
     model_data['Model_Accuracy'][-1:] = model_acc * 100
-    model_data = model_data.filter(['Date', 'Close', 'Prediction', 'Confidence', 'True_Label', 'Correct_Pred'], axis=1)
+    model_data = model_data.filter(['Date', 'Close', 'Prediction', 'Confidence', 'True_Label', 'Correct_Pred', 'Model_Accuracy'], axis=1)
     model_data = model_data.round(2)
     for_CSV_data = model_data[-1:]
     
