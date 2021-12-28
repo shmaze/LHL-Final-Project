@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from binance.client import Client
 import joblib
-from urllib.request import urlopen
+
 
 
 # this function will retrieve our stored csv files
