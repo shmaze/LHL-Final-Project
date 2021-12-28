@@ -1,6 +1,15 @@
 # LHL-Final-Project
 Final Data Science Project for Lighthouse Labs
 
+
+##### Final Product is Deployed. Check it out below!
+
+[Check out the model!!!](https://share.streamlit.io/shmaze/lhl-final-project/main/predictor_app.py)
+
+note: model no longer runs as google cloud has expired for me, currently looking at other options
+
+
+
 #### Goals and Aims of this Project
 For my final Data Science project at Lighthouse Labs I wanted to create a model that predicts the direction of price movement for Bitcoin. 
 
