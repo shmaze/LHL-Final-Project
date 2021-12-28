@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from binance.client import Client
 import joblib
-
+from urllib.request import urlopen
 
 
 # this function will retrieve our stored csv files
@@ -125,7 +125,7 @@ X = to_predict()
 # now we must load our saved model using joblib
 
 
-model = joblib.load(urlopen("https://storage.googleapis.com/my_perfect_model_data/CSVs/final_model.pkl"))
+model = joblib.load(urlopen("https://drive.google.com/file/d/1hQURz8A2l3iqc6y2HJHv6ZBZ0qwm8KVM/view?usp=sharing"))
     
 predicted = model.predict_proba(X)
 
