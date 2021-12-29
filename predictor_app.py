@@ -18,7 +18,7 @@ def get_csvs():
     perf_path = 'https://drive.google.com/uc?export=download&id=' + perf_url.split('/')[-2]
     performance = pd.read_csv(perf_path, index_col='Date', parse_dates=True)
     
-    quant_url = 'https://drive.google.com/file/d/18bTAUkO8IYL6QTpSD7Bqm8slHqjrW7yy/view?usp=sharing'
+    quant_url = 'https://drive.google.com/file/d/1ntEEAJNVk3A880hvpv6O8GNMc9vFaX0t/view?usp=sharing'
     quant_path = 'https://drive.google.com/uc?export=download&id=' + quant_url.split('/')[-2]
     quant_stats = pd.read_csv(quant_path, index_col='Date', parse_dates=True)
     return predictions, performance, quant_stats
