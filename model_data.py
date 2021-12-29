@@ -230,7 +230,7 @@ def get_stake():
         data = pd.read_csv('./CSVs/model_quantitative_stats.csv', parse_dates=['Date'])
         data.set_index('Date', inplace=True)
         data_needed = data[-1:]
-        stake = data_needed['Stake_Out'].value
+        stake = data_needed['Stake_Out'].values[0]
         
         
     else:
@@ -288,10 +288,10 @@ def to_quantitative_csv(trades):
     '''
     This function takes in our fully evaluated trades info and writes it to our last CSV file.
     '''
-    if os.path.isfile('./CSVs/model_quantititive_stats.csv'):
-        trades.to_csv('./CSVs/model_quantititive_stats.csv', mode='a', header=0)
+    if os.path.isfile('./CSVs/model_quantitative_stats.csv'):
+        trades.to_csv('./CSVs/model_quantitative_stats.csv', mode='a', header=0)
     else:
-        trades.to_csv('./CSVs/model_quantititive_stats.csv')
+        trades.to_csv('./CSVs/model_quantitative_stats.csv')
     
     print('Data written to model_quantitative_stats.csv!')
 

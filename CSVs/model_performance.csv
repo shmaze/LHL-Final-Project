@@ -1,2 +1,3 @@
 Date,Close,Prediction,Confidence,True_Label,Correct_Pred,Model_Accuracy
 2021-12-27,50701.44,1,0.73,0,0,0
+2021-12-28,47543.74,1,0.7,0,0,0
