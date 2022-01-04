@@ -6,7 +6,7 @@ Final Data Science Project for Lighthouse Labs
 
 [Check out the model!!!](https://share.streamlit.io/shmaze/lhl-final-project/main/predictor_app.py)
 
-note: model no longer runs as google cloud has expired for me, currently looking at other options
+
 
 
 
