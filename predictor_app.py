@@ -10,17 +10,11 @@ from urllib.request import urlopen
 
 def get_csvs():
     
-    pred_url = 'https://drive.google.com/file/d/1YQpkJ8HBCJOp83SpI8ftWbf7urgjCEHl/view?usp=sharing'
-    pred_path = 'https://drive.google.com/uc?export=download&id=' + pred_url.split('/')[-2]
-    predictions = pd.read_csv(pred_path, index_col='Date', parse_dates=True)
+    predictions = pd.read_csv('https://raw.githubusercontent.com/shmaze/LHL-Final-Project/main/CSVs/model_predictions.csv', index_col='Date', parse_dates=True)
     
-    perf_url = 'https://drive.google.com/file/d/1tLP_ZqODdUUIDtPqRsU5wIfgRNx6jXO1/view?usp=sharing'
-    perf_path = 'https://drive.google.com/uc?export=download&id=' + perf_url.split('/')[-2]
-    performance = pd.read_csv(perf_path, index_col='Date', parse_dates=True)
+    performance = pd.read_csv('https://raw.githubusercontent.com/shmaze/LHL-Final-Project/main/CSVs/model_performance.csv', index_col='Date', parse_dates=True)
     
-    quant_url = 'https://drive.google.com/file/d/1ntEEAJNVk3A880hvpv6O8GNMc9vFaX0t/view?usp=sharing'
-    quant_path = 'https://drive.google.com/uc?export=download&id=' + quant_url.split('/')[-2]
-    quant_stats = pd.read_csv(quant_path, index_col='Date', parse_dates=True)
+    quant_stats = pd.read_csv('https://raw.githubusercontent.com/shmaze/LHL-Final-Project/main/CSVs/model_quantitative_stats.csv', index_col='Date', parse_dates=True)
     return predictions, performance, quant_stats
 
 
