@@ -179,7 +179,7 @@ def display_model_performance(model_metrics_df, quant_data):
     if total_0_pred == 0:
         acc_0 = 100.0
     else:
-        acc_0 = correct_0 / total_0_pred
+        acc_0 = correct_0 / total_0_pred * 100
     
    
     
