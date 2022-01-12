@@ -191,7 +191,7 @@ def display_model_performance(model_metrics_df, quant_data):
     ax1.set_xticklabels(labels=[0,1], fontsize=20)
     ax1.set_xlabel('Predicted Direction', fontsize=25)
     ax1.set_title('Predicted vs. Correct for Each Class', fontsize=25)
-    ax1.set_yticks(range(0, total_predictions, 1))
+#     ax1.set_yticks(range(0, total_predictions, 1))
     ax1.set_yticklabels(range(0, total_predictions, 1), fontsize=20)
     ax1.set_ylabel('Count', fontsize=20)
     ax1.legend(fontsize=15)
