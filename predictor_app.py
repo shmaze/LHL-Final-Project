@@ -200,6 +200,7 @@ def display_model_performance(model_metrics_df, quant_data):
     
     ax2.plot(model_metrics_df.index, model_metrics_df.Model_Accuracy, label='Accuracy (%)', marker='o')  
     ax2.set_title('Model Accuracy Over Time', fontsize=25)
+    ax2.hlines(y=55, xmin=model_metrics_df.index[0]. xmax=model_metrics_df.index[-1], color='red', linestyles='--')
     ax2.set_yticks(range(0,110,10))
     ax2.set_ylabel('Model Accuracy (%)', fontsize=20)
     ax2.set_xlabel('Date', fontsize=20)
