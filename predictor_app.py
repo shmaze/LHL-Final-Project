@@ -208,6 +208,7 @@ def display_model_performance(model_metrics_df, quant_data):
     
     ax3.plot(quant_data.index, quant_data['Gains(%)'], color='royalblue', label='Daily Gain(%)', marker='o')
     ax3.plot(quant_data.index, quant_data['ROI(%)'], color='seagreen', label='Model ROI(%)', marker='x')
+    ax3.hlines(y=0, color='red', linestyles='--')
     ax3.set_xlabel('Date', fontsize=25)
     ax3.set_title('Daily Gains and Model Return on Investment', fontsize=25)
     ax3.set_ylabel('Return', fontsize=20)
@@ -216,6 +217,7 @@ def display_model_performance(model_metrics_df, quant_data):
     
     ax4.plot(quant_data.index, quant_data['Net_Profits'], label='Daily', marker='o', color='royalblue')  
     ax4.plot(quant_data.index, quant_data['Profit_YTD'], label='Year-to-Date', marker='x', color='seagreen')
+    ax4.hlines(y=0, color='red', linestyles='--')
     ax4.set_title('Daily and Year-to-Date Net Profits', fontsize=25)
     ax4.set_ylabel('Profit($)', fontsize=20)
     ax4.set_xlabel('Date', fontsize=20)
@@ -223,6 +225,7 @@ def display_model_performance(model_metrics_df, quant_data):
     ax4.legend(fontsize=15)
     
     ax5.plot(quant_data.index, quant_data['Stake_Out'], label='Total Value', color='royalblue', marker='x')
+    ax5.hlines(y=1000, color='red', linestyles='--')
     ax5.set_title('Total Value Over Time', fontsize=25)
     ax5.set_ylabel('Total Value($)', fontsize=20)
     ax5.set_xlabel('Date', fontsize=20)
